@@ -1,0 +1,46 @@
+Tables for converting from A_4000 to passband extinctions
+============================================================
+
+Author - Stuart Sale
+
+Intro
+------------
+
+The tables provided here can be used to convert from A_4000, the
+monochromatic extinction at 4000A, to extinction in a range of 
+commonly used photometric bands following equation 11 of Sale & 
+Magorrian (2014b):
+
+A_X = alpha_X A_{4000} + beta_X A_{4000}^2 .
+
+Each file is for a particular extinction law from Fitzpatrick (2004),
+for example 21_curves.out is for the Fitzpatrick 'R_V=2.1' law.
+Note that in general R_V != R_5495 .
+
+Within each file the column format is:
+
+col 1: the spectrum employed, either the spectral type or Rayleigh-Jeans
+col 2: The T_eff of the spectrum used
+col 3: the log g of the spectrum used
+col 4-115: the coefficiants alpha_X and beta_X for a range of filters
+
+For each filter there are two columns, e.g. A_J_2MASS_1 and 
+A_J_2MASS_2, where A_J_2MASS_1 corresponds to alpha and A_J_2MASS_2 to
+beta.
+
+The range of filters covered is given in table A1 of Sale & Magorrian 
+(2014b).
+
+For some filter/spectrum combinations values are not available - the
+corresponding values are given as 'NAN'.
+
+
+Comments
+------------
+
+These tables acompany Sale & Magorrian, 2014, 'Marginal likelihoods of
+distances and extinctions to stars: computation and compact 
+representation' MNRAS, submitted.
+
+For more information contact me at 
+<my first name>.<my surname>@physics.ox.ac.uk .
