@@ -11,7 +11,7 @@ monochromatic extinction at 4000A, to extinction in a range of
 commonly used photometric bands following equation 11 of Sale & 
 Magorrian (2014b):
 
-A_X = alpha_X A_{4000} + beta_X A_{4000}^2 .
+A_X = nu_X A_{4000} + xi_X A_{4000}^2 .
 
 Each file is for a particular extinction law from Fitzpatrick (2004),
 for example 21_curves.out is for the Fitzpatrick 'R_V=2.1' law.
