@@ -9,7 +9,7 @@ Intro
 The tables provided here can be used to convert from A_4000, the
 monochromatic extinction at 4000A, to extinction in a range of 
 commonly used photometric bands following equation 11 of Sale & 
-Magorrian (2014b):
+Magorrian (2015):
 
 A_X = c^{(1)}_X A_{4000} + c^{(2)}_X A_{4000}^2 .
 
@@ -25,11 +25,11 @@ col 3: the log g of the spectrum used
 col 4-115: the coefficiants c^{(1)}_X and c^{(2)}_X for a range of filters
 
 For each filter there are two columns, e.g. A_J_2MASS_1 and 
-A_J_2MASS_2, where A_J_2MASS_1 corresponds to alpha and A_J_2MASS_2 to
-beta.
+A_J_2MASS_2, where A_J_2MASS_1 corresponds to c^{(1)} and A_J_2MASS_2 
+to c^{(2)}.
 
 The range of filters covered is given in table A1 of Sale & Magorrian 
-(2014b).
+(2015).
 
 For some filter/spectrum combinations values are not available - the
 corresponding values are given as 'NAN'.
@@ -38,9 +38,9 @@ corresponding values are given as 'NAN'.
 Comments
 ------------
 
-These tables acompany Sale & Magorrian, 2014, 'Marginal likelihoods of
+These tables acompany Sale & Magorrian, 2015, 'Marginal likelihoods of
 distances and extinctions to stars: computation and compact 
-representation' MNRAS, submitted.
+representation' MNRAS, 448, 1738.
 
 For more information contact me at 
 <my first name>.<my surname>@physics.ox.ac.uk .
