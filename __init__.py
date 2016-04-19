@@ -17,7 +17,7 @@ class R_curves:
             self.A1_splines[band]=[]
             self.A2_splines[band]=[]            
         
-        for R in np.arange(2.1, 5.1, 0.1):
+        for R in np.arange(2.1, 5.6, 0.1):
             with open("{0:s}/{1:d}_curves.out".format(module_dir,int(R*10)), 'r') as f:
                 first_line = f.readline().split()
                 
